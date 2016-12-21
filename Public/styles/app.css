@@ -6,7 +6,7 @@ body, html {
 		padding: 0;
 		margin: 0;
 		height: 100%;
-		background-color: #fafafa;
+		background-image: linear-gradient(#FFF1EC 50%, #FBC2EC 100%);
 }
 
 body {
