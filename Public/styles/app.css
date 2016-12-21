@@ -6,13 +6,30 @@ body, html {
 		padding: 0;
 		margin: 0;
 		height: 100%;
-		background-image: linear-gradient(#FFF1EC 50%, #FBC2EC 100%);
 }
 
 body {
 		font-family: sans-serif;
-		color: #333;
+		color: #fff;
 		position: relative;
+		background-image: linear-gradient(rgba(255, 241, 236, 1) 60%, rgba(253, 150, 226, .5) 100%);
+}
+
+body::after {
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -99;
+		width: 100%;
+		height: 100%;
+		opacity: .4;
+		filter: blur(25px);
+		-webkit-filter: blur(25px);
+		background: center no-repeat;
+		background-image: linear-gradient(rgba(255, 241, 236, .7) 60%, rgba(253, 150, 226, .5) 100%), url('/images/bg.jpg');
+		background-size: cover;
+		background-blend-mode: overlay;
 }
 
 #droplet {
