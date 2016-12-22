@@ -8,6 +8,13 @@ drop.get { req in
     ])
 }
 
+drop.get("/name",":name") { req in
+    if let name = req.parameters["name"]?.string {
+        return "Hello \(name)"
+    }
+    return "Error retrieving parameters."
+}
+
 drop.resource("posts", PostController())
 
 drop.run()
