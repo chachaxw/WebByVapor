@@ -3,7 +3,9 @@
 A basic vapor template for starting a new Vapor web application. If you're using vapor toolbox, you can use: `vapor new --template=basic`
 
 ## Screen Shot
-![Screen Shot](http://7xqacx.com1.z0.glb.clouddn.com/Screen%20Shot%202016-12-22%20at%2016.54.09.png)
+![Screen Shot](http://7xqacx.com1.z0.glb.clouddn.com/backend_managment.png)
+
+![Vapor Structure](http://7xqacx.com1.z0.glb.clouddn.com/vapor_structure.png)
 
 ## 📖 Documentation
 
