@@ -12,6 +12,7 @@ body {
 		font-family: sans-serif;
 		color: #fff;
 		position: relative;
+		height: 100%;
 		background-image: linear-gradient(rgba(255, 241, 236, 1) 60%, rgba(253, 150, 226, .5) 100%);
 }
 
